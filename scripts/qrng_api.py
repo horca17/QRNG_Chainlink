@@ -98,8 +98,8 @@ origins = [
     "https://9b497939447c7727817519b3436736d4.serveo.net",
     "https://functions.chain.link/playground",
     "https://3ebc-2803-9810-b028-c710-a00d-267c-1866-c128.ngrok-free.app",
-    "https://qubistry.serveo.net",
-    "https://6107-2803-9810-337e-de10-d5d1-188c-25a2-b74c.ngrok-free.app"
+    "https://6107-2803-9810-337e-de10-d5d1-188c-25a2-b74c.ngrok-free.app",
+    "https://your-serveo-subdomain.serveo.net",  # Replace with your Serveo URL
 ]
 
 
