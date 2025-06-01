@@ -32,8 +32,7 @@ import argparse
 import random
 
 # Conectar con IBM Quantum Experience
-service = QiskitRuntimeService(channel="ibm_quantum", token="128594f5b5b142472bcc80b979e7af34554d1bbad6ffb656107e69656f677c9047c87918adb39e237fb0c37e249000bac3d6d53ee993cdcc1701972ceddac9bc")
-#service = QiskitRuntimeService(channel="ibm_quantum", token="8566d55b51b820899ce725840acc2b3d08fb66e591f71dd5bfa37fb42f8a451db853b2488f6ba2d8cd918b73afbd5812faa7dff18a9c6d89578f6e666227a9e9")
+service = QiskitRuntimeService(channel="ibm_quantum", token="YOUR_IBM_TOKEN"))
 
 # Obtener la lista de backends disponibles
 backends = service.backends(operational=True, simulator=False, min_num_qubits=10)
@@ -97,8 +96,7 @@ origins = [
     "https://quantumoraclenumber.loca.lt",
     "https://9b497939447c7727817519b3436736d4.serveo.net",
     "https://functions.chain.link/playground",
-    "https://3ebc-2803-9810-b028-c710-a00d-267c-1866-c128.ngrok-free.app",
-    "https://6107-2803-9810-337e-de10-d5d1-188c-25a2-b74c.ngrok-free.app",
+    "https://your-ngrok-url",  # Replace with your ngrok URL
     "https://your-serveo-subdomain.serveo.net",  # Replace with your Serveo URL
 ]
 

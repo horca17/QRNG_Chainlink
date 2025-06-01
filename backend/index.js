@@ -8,7 +8,7 @@ origins = [
     "http://localhost",
     "http://localhost:5005",
     "http://localhost:3000",
-    "https://52fd-2803-9810-3378-a210-f94e-bb51-350a-aa6c.ngrok-free.app",
+    "https://your-ngrok-url", // Replace with your ngrok URL
     # Agrega aquí cualquier otro origen permitido
 ]
 
