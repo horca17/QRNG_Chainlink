@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # QRNG_Chainlink
 A cross-chain lottery application that generates quantum random numbers using IBM Quantum (ibm_sherbrooke) and integrates Chainlink Functions with Avalanche for verifiable randomness.
 =======
@@ -32,6 +31,17 @@ Quantum Random Number Generator (QRNG) is a cross-chain lottery application that
 - An IBM Quantum account with access to the ibm_sherbrooke backend.
 - Access to Chainlink Functions and a wallet configured for Avalanche.
 
+
+## Project Media
+
+- Frontend screenshot showing a random number:
+  ![Frontend Screenshot](images/frontend-screenshot.png)
+- Architecture diagram (IBM Quantum → Chainlink Functions → Avalanche):
+  ![Architecture Diagram](images/architecture-diagram.png)
+- Smart contract (QuantumOracle.sol):
+  ![Smart Contract](images/contract-screenshot.png)
+
+
 ### Installation
 1. Clone the repository:
 
@@ -61,7 +71,3 @@ autossh -M 0 -o ServerAliveInterval=30 -o ServerAliveCountMax=3 -R your-subdomai
 
 Note: Replace `your-subdomain` with a unique subdomain of your choice (e.g., `mysubdomain`). This will expose the frontend at `your-subdomain.serveo.net`. If you need to use an SSH key for authentication, add the `-i /path/to/your-key` option. Update the backend configuration (in `backend/index.js`) to allow connections from this URL if needed (e.g., CORS settings).
 
-
-
-
->>>>>>> Subo archivos del proyecto QRNG
