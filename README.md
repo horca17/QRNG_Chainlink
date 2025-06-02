@@ -124,7 +124,8 @@ npm run dev
 ## Project Media
 
 - Frontend screenshot showing a random number:
-![Frontend Screenshot](images/frontend-screenshot.jpg)
+![Frontend Screenshot](images/frontend-screenshot.png)
+
 - Project logo:
 ![QRNG Logo](images/qrng-logo.png)
 
