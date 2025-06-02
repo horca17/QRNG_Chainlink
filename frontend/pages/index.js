@@ -276,7 +276,7 @@ useEffect(() => {
       console.log('Is owner:', isOwner);
 
       let tx;
-      const subscriptionId = 11360;
+      const subscriptionId = "your-subscription-id"; // Replace with your Chainlink Functions Subscription ID
       if (isOwner) {
         // Si es owner, usa una cadena vacía como código de acceso
         tx = await contract.sendRequest(subscriptionId, ACCESS_CODE);
