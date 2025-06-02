@@ -1,0 +1,26 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@chainlink/contracts": "^1.2.0",
+    "axios": "^1.7.2",
+    "chart.js": "^3.9.1",
+    "ethers": "^5.7.2",
+    "next": "14.2.5",
+    "react": "^18.2.0",
+    "react-chartjs-2": "^4.0.0",
+    "react-dom": "^18.2.0",
+    "web3": "^4.11.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.5",
+    "@types/react-dom": "^18.3.0"
+  }
+}
