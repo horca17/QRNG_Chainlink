@@ -127,8 +127,6 @@ npm run dev
 ![Frontend Screenshot](images/frontend-screenshot.jpg)
 - Project logo:
 ![QRNG Logo](images/qrng-logo.png)
-- Architecture diagram (IBM Quantum → Chainlink Functions → Avalanche):
-![Flow Diagram](images/flow-diagram.png)
 
 ## Future Improvements
 
